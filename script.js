@@ -82,3 +82,33 @@ form.addEventListener("submit", function (e) {
     }
   );
 });
+
+
+
+
+
+
+
+// ================= MOBILE NAVBAR =================
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+const ctaBtn = document.getElementById("nav-cta");
+
+// Toggle menu
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
+// Smooth scroll + close menu
+document.querySelectorAll(".nav-link, #nav-cta").forEach(link => {
+  link.addEventListener("click", e => {
+    const target = link.getAttribute("href") || "#contact";
+    e.preventDefault();
+
+    document.querySelector(target).scrollIntoView({
+      behavior: "smooth"
+    });
+
+    navLinks.classList.remove("active");
+  });
+});

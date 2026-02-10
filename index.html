@@ -14,30 +14,37 @@
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <header class="navbar">
-  <div class="nav-left">
-    <span class="logo">
+ <!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-container">
+
+    <!-- Logo -->
+    <div class="nav-logo">
       <span class="logo-red">Our</span>Factifys_Telugu
-    </span>
-  </div>
+    </div>
 
-  <nav class="nav-center">
-    <a href="#about" class="nav-link">About</a>
-    <a href="#work" class="nav-link">Work</a>
-    <a href="#skills" class="nav-link">Skills</a>
-    <a href="#services" class="nav-link">Services</a>
-    <a href="#contact" class="nav-link">Contact</a>
+    <!-- Desktop Nav Links -->
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
 
-  </nav>
+    <!-- Right Side -->
+    <div class="nav-actions">
+      <button id="nav-cta" class="cta-btn">Let's Talk</button>
 
-  <div class="nav-right">
-    <button id="nav-cta" class="nav-link" data-target="#contact">
-  Let's Talk
-</button>
+      <!-- Hamburger (mobile only) -->
+      <button class="menu-toggle" id="menuToggle">
+        ☰
+      </button>
+    </div>
 
   </div>
 </header>
+
 
 
 
@@ -91,7 +98,7 @@
     <!-- LEFT PROFILE CARD -->
     <div class="profile-card">
       <div class="profile-image-wrapper">
-        <img src="./1676722172971.jpg" alt="G. Kranthi Kumar">
+        <img src="./image.png" alt="G. Kranthi Kumar">
       </div>
 
       <h3 class="profile-name">G. Kranthi Kumar</h3>
@@ -564,7 +571,7 @@
 
         <div class="form-group">
           <label>Email</label>
-          <input type="email" name="reply_to" placeholder="Where can I reach you?" required>
+          <input type="email" name="from_email" placeholder="Where can I reach you?" required>
         </div>
       </div>
 
