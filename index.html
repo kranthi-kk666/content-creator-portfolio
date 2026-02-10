@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>G. Kranthi Kumar | Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./script.js">
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+  <div class="nav-left">
+    <span class="logo">
+      <span class="logo-red">Our</span>Factifys_Telugu
+    </span>
+  </div>
+
+  <nav class="nav-center">
+    <a href="#about" class="nav-link">About</a>
+    <a href="#work" class="nav-link">Work</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#services" class="nav-link">Services</a>
+    <a href="#contact" class="nav-link">Contact</a>
+
+  </nav>
+
+  <div class="nav-right">
+    <button id="nav-cta" class="nav-link" data-target="#contact">
+  Let's Talk
+</button>
+
+  </div>
+</header>
+
+
+
+  <!-- HERO -->
+  <section class="hero">
+    <img src="./Picsart_24-09-30_14-39-38-403.png" alt="ourFactifys Telugu YouTube Banner" class="hero-banner">
+
+  <h1>
+    Crafting Stories That <br />
+    <span class="highlight">Captivate Audiences</span>
+  </h1>
+
+  <p class="hero-desc">
+    From compelling scripts to engaging narratives — I bring ideas to life
+    through strategic content creation, storytelling, and audience-first
+    thinking.
+  </p>
+
+  <p class="hero-tagline">IDEAS. SCRIPTS. ENGAGEMENT.</p>
+
+  <div class="hero-buttons">
+    <button class="btn-primary" onclick="document.getElementById('work').scrollIntoView({behavior:'smooth'})">
+      View My Work →
+    </button>
+
+    <button class="btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+      Let’s Collaborate
+    </button>
+  </div>
+
+  <!-- STATS -->
+  <div class="hero-stats">
+    <div class="stat">
+      <h3>1.7K+</h3>
+      <p>Subscribers</p>
+    </div>
+    <div class="stat">
+      <h3>1 Year</h3>
+      <p>Consistency</p>
+    </div>
+    <div class="stat">
+      <h3>100+</h3>
+      <p>Videos Created</p>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about-section">
+  <div class="about-container">
+
+    <!-- LEFT PROFILE CARD -->
+    <div class="profile-card">
+      <div class="profile-image-wrapper">
+        <img src="./1676722172971.jpg" alt="G. Kranthi Kumar">
+      </div>
+
+      <h3 class="profile-name">G. Kranthi Kumar</h3>
+      <p class="profile-channel">ourFactifys_Telugu</p>
+      <p class="profile-role">Content Creator</p>
+
+      <div class="profile-tags">
+        <span>Devotional & Mystery</span>
+        <span>Storytelling</span>
+      </div>
+    </div>
+
+    <!-- RIGHT CONTENT -->
+    <div class="about-content">
+      <h2>
+        Building Content Through <br>
+        <span>Idea-First Thinking</span>
+      </h2>
+
+      <p>
+        I am a content creator driven by curiosity and a commitment to meaningful storytelling.
+        My journey began with a simple question: how do you turn abstract ideas into content
+        that truly resonates with audiences?
+      </p>
+
+      <p>
+        Through managing <strong>ourFactifys_Telugu</strong>, a YouTube channel focused on
+        devotional stories, mysteries, and unexplained facts, I have developed a systematic
+        approach to content creation—from ideation and scriptwriting to voice narration and
+        audience engagement.
+      </p>
+
+      <p>
+        Every piece of content I create starts with the viewer in mind. Understanding audience
+        psychology, crafting hooks that retain attention, and delivering narratives with clarity
+        are the cornerstones of my creative process.
+      </p>
+
+      <ul class="about-points">
+        <li>Strategic storytelling</li>
+        <li>Clear communication</li>
+        <li>Audience retention focus</li>
+        <li>Viewer-first mindset</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+<!-- SKILLS SECTION -->
+<section id="skills" class="skills-section">
+  <div class="section-header">
+    <span class="section-line"></span>
+    <h2>Skills & Strengths</h2>
+    <p class="section-subtitle">
+      Practical, applied skills refined through hands-on content creation experience.
+    </p>
+  </div>
+
+  <div class="skills-grid">
+    <div class="skill-card">
+      <div class="skill-icon">✍️</div>
+      <h3>Scriptwriting</h3>
+      <p>
+        Transforming raw ideas into structured, engaging narratives that flow naturally
+        from hook to conclusion.
+      </p>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">💡</div>
+      <h3>Creative Ideation</h3>
+      <p>
+        Generating unique content angles and concepts that stand out in crowded niches
+        and capture attention.
+      </p>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">🎯</div>
+      <h3>Hook & Title Craft</h3>
+      <p>
+        Writing compelling titles and opening hooks designed to maximize click-through
+        and viewer retention.
+      </p>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">🎙️</div>
+      <h3>Voice & Narration</h3>
+      <p>
+        Delivering clear, engaging voice-overs that bring scripts to life and maintain
+        audience interest.
+      </p>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">📅</div>
+      <h3>Content Planning</h3>
+      <p>
+        Building consistent content calendars and strategic publishing schedules for
+        sustainable growth.
+      </p>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">🧠</div>
+      <h3>Audience Psychology</h3>
+      <p>
+        Understanding viewer behavior and preferences to create content that resonates
+        and drives engagement.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- WORK SECTION -->
+<section id="work" class="work-section">
+
+  <div class="section-header">
+    <span class="section-line"></span>
+    <h2>Work & Case Studies</h2>
+    <p class="section-subtitle">
+      Real examples of content strategy and execution from managing ourFactifys_Telugu.
+    </p>
+  </div>
+
+  <!-- CASE STUDY 1 -->
+  <div class="work-card">
+    <div class="work-left">
+      <h3>YouTube Shorts</h3>
+      <span class="work-meta">~1 minute</span>
+
+      <p class="work-label">Objective</p>
+      <p>Drive curiosity and quick engagement</p>
+
+      <p class="work-label">My Role</p>
+      <p>Ideation, Scripting, Voice Narration</p>
+    </div>
+
+    <div class="work-middle">
+      <p class="work-label">Approach</p>
+      <p>
+        Punchy hooks, fast-paced delivery, cliffhanger endings
+        to encourage profile visits
+      </p>
+    </div>
+
+    <div class="work-right">
+      <p class="work-label">Results & Learnings</p>
+      <p>
+        Consistent viewership growth, improved retention rates,
+        algorithm-friendly content structure
+      </p>
+    </div>
+  </div>
+
+  <!-- CASE STUDY 2 -->
+  <div class="work-card">
+    <div class="work-left">
+      <h3>Long-Form Content</h3>
+      <span class="work-meta">3–4 minutes</span>
+
+      <p class="work-label">Objective</p>
+      <p>Deep storytelling and subscriber conversion</p>
+
+      <p class="work-label">My Role</p>
+      <p>Research, Scripting, Narrative Design, Voice</p>
+    </div>
+
+    <div class="work-middle">
+      <p class="work-label">Approach</p>
+      <p>
+        Structured narratives with mystery elements,
+        devotional themes, and clear story arcs
+      </p>
+    </div>
+
+    <div class="work-right">
+      <p class="work-label">Results & Learnings</p>
+      <p>
+        Higher watch time, stronger subscriber loyalty,
+        improved channel authority in niche
+      </p>
+    </div>
+  </div>
+
+  <!-- CASE STUDY 3 -->
+  <div class="work-card">
+    <div class="work-left">
+      <h3>Content Strategy</h3>
+      <span class="work-meta">Ongoing</span>
+
+      <p class="work-label">Objective</p>
+      <p>Build consistent brand presence</p>
+
+      <p class="work-label">My Role</p>
+      <p>Planning, Content Calendar, Performance Analysis</p>
+    </div>
+
+    <div class="work-middle">
+      <p class="work-label">Approach</p>
+      <p>
+        Weekly publishing schedule, trend analysis,
+        audience feedback integration
+      </p>
+    </div>
+
+    <div class="work-right">
+      <p class="work-label">Results & Learnings</p>
+      <p>
+        1.7K+ subscribers, 1 year of unbroken consistency,
+        growing community engagement
+      </p>
+    </div>
+  </div>
+
+</section>
+
+<!-- METRICS SECTION -->
+<section class="metrics-section">
+
+  <div class="section-header">
+    <span class="section-line"></span>
+    <h2>Metrics & Credibility</h2>
+    <p class="section-subtitle">
+      Real numbers from real work. No exaggeration, just honest progress.
+    </p>
+  </div>
+
+  <div class="metrics-grid">
+
+    <div class="metric-card">
+      <div class="metric-icon">👥</div>
+      <h3>1.7K+</h3>
+      <p class="metric-title">Subscribers</p>
+      <p class="metric-desc">
+        Organic growth through consistent, quality content
+      </p>
+    </div>
+
+    <div class="metric-card">
+      <div class="metric-icon">📅</div>
+      <h3>1 Year</h3>
+      <p class="metric-title">Consistency</p>
+      <p class="metric-desc">
+        Unbroken content publishing schedule
+      </p>
+    </div>
+
+    <div class="metric-card">
+      <div class="metric-icon">🎥</div>
+      <h3>Dual Format</h3>
+      <p class="metric-title">Content Types</p>
+      <p class="metric-desc">
+        Shorts (~1 min) and Long-form (3–4 min)
+      </p>
+    </div>
+
+    <div class="metric-card">
+      <div class="metric-icon">⚡</div>
+      <h3>Devotional</h3>
+      <p class="metric-title">Niche Focus</p>
+      <p class="metric-desc">
+        Mysteries, secrets, and unexplained facts
+      </p>
+    </div>
+
+  </div>
+
+  <p class="metrics-footer">
+    These metrics represent genuine growth built through dedication to craft,
+    audience understanding, and consistent value delivery. Every subscriber
+    earned through quality content, not shortcuts.
+  </p>
+
+</section>
+
+<section class="philosophy-section" id="philosophy">
+  <div class="philosophy-container">
+
+    <!-- LEFT SIDE -->
+    <div class="philosophy-left">
+      <span class="section-line"></span>
+      <h2>Creative Philosophy</h2>
+
+      <blockquote>
+        “Content that matters begins with thinking that matters.
+        Every frame, every word, every pause serves a purpose.”
+      </blockquote>
+
+      <p>
+        My approach to content creation is rooted in intentionality.
+        I believe that truly impactful content emerges when creativity
+        is guided by strategy, and strategy is informed by genuine
+        understanding of the audience.
+      </p>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="philosophy-right">
+
+      <div class="philosophy-card">
+        <span class="number">1</span>
+        <h4>Idea-First, Not Tool-First</h4>
+        <p>
+          Great content starts with a compelling idea. Tools and techniques
+          serve the vision, not the other way around.
+        </p>
+      </div>
+
+      <div class="philosophy-card">
+        <span class="number">2</span>
+        <h4>Storytelling Over Information</h4>
+        <p>
+          Facts inform, but stories transform. I focus on weaving
+          information into narratives audiences remember.
+        </p>
+      </div>
+
+      <div class="philosophy-card">
+        <span class="number">3</span>
+        <h4>Viewer Perspective Always</h4>
+        <p>
+          Every creative decision passes through one filter:
+          how will the viewer experience this?
+        </p>
+      </div>
+
+      <div class="philosophy-card">
+        <span class="number">4</span>
+        <h4>Clarity Through Simplicity</h4>
+        <p>
+          Complex ideas deserve clear communication without losing
+          depth or nuance.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="services-header">
+    <h2>Services & Collaboration</h2>
+    <p>
+      Open to freelance projects and creative collaborations.
+      Let's create content that makes an impact.
+    </p>
+  </div>
+
+  <div class="services-grid">
+
+  <div class="service-card">
+  <div class="service-icon">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <path d="M3 21l3-1 11-11-2-2L4 18l-1 3z"
+            stroke="#ff2a2a" stroke-width="2"/>
+    </svg>
+  </div>
+
+  <h3>Scriptwriting for YouTube</h3>
+  <p>
+    Custom scripts tailored to your niche, from shorts to long-form
+    content. Structured for engagement and optimized for retention.
+  </p>
+</div>
+
+
+    <div class="service-card">
+  <div class="service-icon">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <path d="M9 18h6M10 22h4"
+            stroke="#ff2a2a" stroke-width="2" stroke-linecap="round"/>
+      <path d="M12 2a7 7 0 0 0-4 12c.6.6 1 1.4 1 2h6c0-.6.4-1.4 1-2a7 7 0 0 0-4-12z"
+            stroke="#ff2a2a" stroke-width="2"/>
+    </svg>
+  </div>
+
+  <h3>Content Ideation</h3>
+  <p>
+    Fresh video concepts and content angles that align with your brand
+    voice and resonate with your target audience.
+  </p>
+</div>
+
+
+    <div class="service-card">
+  <div class="service-icon">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="9"
+              stroke="#ff2a2a" stroke-width="2"/>
+      <circle cx="12" cy="12" r="5"
+              stroke="#ff2a2a" stroke-width="2"/>
+      <circle cx="12" cy="12" r="1.5"
+              fill="#ff2a2a"/>
+    </svg>
+  </div>
+
+  <h3>Hooks & Titles</h3>
+  <p>
+    Compelling titles and opening hooks designed to maximize
+    click-through rates and keep viewers watching.
+  </p>
+</div>
+
+
+   <div class="service-card">
+  <div class="service-icon">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <rect x="9" y="2" width="6" height="12" rx="3"
+            stroke="#ff2a2a" stroke-width="2"/>
+      <path d="M5 10v2a7 7 0 0 0 14 0v-2"
+            stroke="#ff2a2a" stroke-width="2"/>
+      <path d="M12 19v3"
+            stroke="#ff2a2a" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+  </div>
+
+  <h3>Voice-Over Support</h3>
+  <p>
+    Clear, engaging voice narration that brings scripts to life.
+    Available for Telugu content and projects.
+  </p>
+</div>
+
+
+  </div>
+</section>
+
+  <section id="cta" class="cta-section">
+  <div class="cta-card">
+
+    <div class="cta-icon">
+      ✉️
+    </div>
+
+    <h2 class="cta-title">
+      Let’s Create Something <br>
+      <span>Remarkable Together</span>
+    </h2>
+
+    <p class="cta-text">
+      Whether you're looking for a content partner, need scriptwriting support,
+      or want to discuss a creative collaboration, I'd love to hear from you.
+    </p>
+
+    <div class="cta-buttons">
+      <a href="#contact" class="btn btn-primary">Get in Touch → </a>
+      <a href="https://www.youtube.com/@Our_Factifys_Telugu"
+         target="_blank"
+         class="btn btn-outline">
+        View YouTube Channel
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <section id="contact" class="contact-section">
+  <div class="contact-container">
+
+    <form id="contact-form" class="contact-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" name="from_name" placeholder="Hi, what's your name?" required>
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="reply_to" placeholder="Where can I reach you?" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Subject</label>
+        <input type="text" name="subject" placeholder="What's on your mind?" required>
+      </div>
+
+      <div class="form-group">
+        <label>Message</label>
+        <textarea name="message" rows="5" placeholder="Feel free to share details..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn-primary">
+        Send Message →
+      </button>
+
+      <p id="form-status"></p>
+    </form>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <h3>
+        <span class="brand-red">our</span>Factifys_<span class="brand-white">Telugu</span>
+      </h3>
+      <p>
+        Content, creativity, and storytelling. Building audiences through
+        meaningful narratives and strategic thinking.
+      </p>
+    </div>
+
+    <nav class="footer-nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+
+  <div class="footer-divider"></div>
+
+  <div class="footer-bottom">
+    <p>© 2024 ourFactifys_Telugu. All rights reserved.</p>
+    <p class="footer-note">
+      Crafted with dedication to the art of storytelling.
+    </p>
+  </div>
+</footer>
+
+  <!-- JS -->
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function () {
+    emailjs.init("b2O6NVTnA3sjHih_j");
+  })();
+</script>
+
+</body>
+</html>
